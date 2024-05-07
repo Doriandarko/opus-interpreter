@@ -32,8 +32,8 @@ Welcome to **Opus Interpreter**! 🚀 A magical Python data science environment 
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo/claude-powered-code-interpreter.git
-   cd claude-powered-code-interpreter
+   git clone https://github.com/Doriandarko/opus-interpreter.git
+   cd opus-interpreter
    ```
 
 2. **Install Dependencies**:

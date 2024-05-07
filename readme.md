@@ -76,8 +76,6 @@ The script as well this readme were created entirely by **im-a-good-gpt2-chatbot
    - **code_interpret**: Executes Python code and manages results, logs, and files.
 
 
-```
-
 ## Contributing
 All wizards and data enthusiasts are welcome to contribute! Feel free to:
 - Open issues for bugs or feature requests.

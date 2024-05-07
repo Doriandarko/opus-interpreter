@@ -2,6 +2,8 @@
 
 Welcome to **Opus Interpreter**! 🚀 A magical Python data science environment where you can use **Anthropic's Claude** in tandem with a **secure sandbox** to generate and execute Python code on the fly. This project leverages Claude and the **Code Interpreter API by e2b** to create a seamless, interactive data science experience. Say goodbye to repetitive coding and hello to effortless productivity! 🎩✨
 
+The script as well this readme were created entirely by **im-a-good-gpt2-chatbot**
+
 ## Features 🌟
 ### 1. **Claude as a Python Data Scientist**
 - **Anthropic Claude API Integration**: Claude-3 is your AI data scientist.

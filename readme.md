@@ -73,31 +73,7 @@ Welcome to **Opus Interpreter**! 🚀 A magical Python data science environment 
    - **chat**: Handles user messages and interprets Claude's response.
    - **code_interpret**: Executes Python code and manages results, logs, and files.
 
-### Example Code Snippet
-```python
-def chat(code_interpreter: CodeInterpreter, user_message: str) -> Tuple[List[Result], Logs, str, List[str]]:
-    print(f"\n{'='*50}\nUser Message: {user_message}\n{'='*50}")
 
-    message = client.beta.tools.messages.create(
-        model=MODEL_NAME,
-        system=SYSTEM_PROMPT,
-        max_tokens=4096,
-        messages=[{"role": "user", "content": user_message}],
-        tools=tools,
-    )
-
-    print(f"\n{'='*50}\nModel response: {message.content}\n{'='*50}")
-
-    if message.stop_reason == "tool_use":
-        tool_use = next(block for block in message.content if block.type == "tool_use")
-        tool_name = tool_use.name
-        tool_input = tool_use.input
-
-        print(f"\n{'='*50}\nUsing tool: {tool_name}\n{'='*50}")
-
-        if tool_name == "execute_python":
-            return code_interpret(code_interpreter, tool_input["code"])
-    return [], Logs(), "No code execution requested.", []
 ```
 
 ## Contributing

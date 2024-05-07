@@ -1,0 +1,6 @@
+anthropic
+dotenv
+matplotlib
+numpy
+e2b
+e2b-code-interpreter
